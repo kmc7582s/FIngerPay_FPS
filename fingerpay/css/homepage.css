@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+  #homepage{
+    width: 100%;
+    height: calc(100vh - 100px);
+  }
+  #homepage h1{
+    text-align: center;
+    font-size: 15vh;
+    line-height: calc(100vh - 100px);
+  }

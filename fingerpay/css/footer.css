@@ -1,0 +1,16 @@
+/* 하단 푸터 */
+footer{
+    height: 100px; 
+    background-color: #2c2a29;
+}
+/* 안에 배피는 absolute를 사용할 것이어서 부모뷰는 relative */
+#footer_content{
+    position: relative;
+    width: 1000px; 
+    margin: 0 auto; 
+    color: #dddddd;}
+#footer_logo{position: absolute; top: 30px; left: 50px; font-size: 16px;}
+#footer_logo span{color: yellow;}
+#download{position: absolute; top: 20px; left: 400px;}
+#download a{color:aquamarine;}
+#author{position: absolute; top: 20px; left: 700px;}

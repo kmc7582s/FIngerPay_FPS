@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .menu-bar {
+    background-color: black; /* 메뉴바 배경색 */
+    color: #fff; /* 텍스트 색상 */
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex; /* Flexbox 사용 */
+    justify-content: center; /* 가로 중앙 정렬 */
+  }
+  
+  .menu-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-bar li {
+    display: inline-block;
+    margin-right: 20px; /* 메뉴 항목 사이 간격 */
+  }
+  
+  .menu-bar li:last-child {
+    margin-right: 0; /* 마지막 메뉴 항목 오른쪽 간격 제거 */
+  }
+  
+  .menu-bar a {
+    text-decoration: none;
+    color: #fff; /* 링크 색상 */
+  }
+  
+  .menu-bar a:hover {
+    color: yellowgreen; /* 링크에 마우스를 올렸을 때 색상 변화 */
+  }
