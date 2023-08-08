@@ -1,1 +1,1 @@
-# FIngerPay_FPS
+# FingerPay_FPS
